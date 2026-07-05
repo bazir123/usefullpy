@@ -9,3 +9,5 @@ def ip_to_int(ip):
 
 def int_to_ip(n):
     return socket.inet_ntoa(struct.pack("!I", n))
+
+with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024) as outfile:
