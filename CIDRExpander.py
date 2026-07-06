@@ -11,3 +11,7 @@ def int_to_ip(n):
     return socket.inet_ntoa(struct.pack("!I", n))
 
 with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024) as outfile:
+    for line in infile:
+        line = line.strip()
+        if not line or "/" not in line:
+            continue
