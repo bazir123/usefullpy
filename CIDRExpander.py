@@ -15,3 +15,5 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
         line = line.strip()
         if not line or "/" not in line:
             continue
+        ip, prefix = line.split("/")
+        prefix = int(prefix)
