@@ -17,3 +17,5 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
             continue
         ip, prefix = line.split("/")
         prefix = int(prefix)
+        
+        ip_int = ip_to_int(ip)
