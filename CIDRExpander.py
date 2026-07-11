@@ -21,3 +21,4 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
         ip_int = ip_to_int(ip)
         mask = (0xFFFFFFFF << (32 - prefix)) & 0xFFFFFFFF
         network = ip_int & mask
+        broadcast = network | (~mask & 0xFFFFFFFF)
