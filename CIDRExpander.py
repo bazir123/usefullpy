@@ -23,3 +23,4 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
         network = ip_int & mask
         broadcast = network | (~mask & 0xFFFFFFFF)
         chunk = []
+        for n in range(network, broadcast + 1):
