@@ -26,3 +26,4 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
         for n in range(network, broadcast + 1):
             chunk.append(int_to_ip(n) + "\n")
             if len(chunk) >= 10000:
+                outfile.writelines(chunk)
