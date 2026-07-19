@@ -29,3 +29,4 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
                 outfile.writelines(chunk)
                 chunk.clear()
         if chunk:
+            outfile.writelines(chunk)
