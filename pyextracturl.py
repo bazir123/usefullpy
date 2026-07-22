@@ -1,2 +1,2 @@
 import re
-INPUT_FILE = "pp.txt"
+INPUT_FILE = "input.txt"
