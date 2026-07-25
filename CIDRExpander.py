@@ -31,3 +31,5 @@ with open(INPUT_FILE, "r") as infile, open(OUTPUT_FILE, "w", buffering=1024*1024
         if chunk:
             outfile.writelines(chunk)
 print("Done.")
+    re.IGNORECASE
+)
