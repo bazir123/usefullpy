@@ -7,3 +7,5 @@ OUTPUT_FILE = "domains.txt"
 # or plain domains
 pattern = re.compile(
     r'((?:https?://)?(?:[a-zA-Z0-9-]+\.)+[a-zA-Z]{2,})(?:[/?#:][^\s"\'>]*)?',
+    re.IGNORECASE
+)
