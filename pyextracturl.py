@@ -14,3 +14,4 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as fin, \
      open(OUTPUT_FILE, "w", encoding="utf-8") as fout:
 
     for line in fin:
+        for match in pattern.finditer(line):
