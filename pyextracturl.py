@@ -18,3 +18,4 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as fin, \
             domain = match.group(1)
 
             if domain not in seen:
+                seen.add(domain)
