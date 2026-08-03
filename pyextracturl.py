@@ -19,3 +19,4 @@ with open(INPUT_FILE, "r", encoding="utf-8", errors="ignore") as fin, \
 
             if domain not in seen:
                 seen.add(domain)
+                fout.write(domain + "\n")
