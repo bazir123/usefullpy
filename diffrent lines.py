@@ -6,3 +6,6 @@ missing_lines = [
     line for line in a_lines
     if line.strip().lower() not in b_lines
 with open("c.txt", "w", encoding="utf-8") as f:
+    f.writelines(missing_lines)
+    
+#If you want all lines that exist in a.txt but do not exist in b.txt, and write those lines to c.txt:
