@@ -7,3 +7,4 @@ total_lines = len(lines)
 file_count = (total_lines + lines_per_file - 1) // lines_per_file
 for i in range(file_count):
     start = i * lines_per_file
+    end = start + lines_per_file
