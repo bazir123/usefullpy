@@ -11,3 +11,4 @@ for i in range(file_count):
     chunk = lines[start:end]
     output_file = f"output_{i+1}.txt"
     with open(output_file, "w", encoding="utf-8") as out:
+        out.writelines(chunk)
