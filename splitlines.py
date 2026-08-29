@@ -12,3 +12,4 @@ for i in range(file_count):
     output_file = f"output_{i+1}.txt"
     with open(output_file, "w", encoding="utf-8") as out:
         out.writelines(chunk)
+    print(f"Created {output_file} with {len(chunk)} lines")
