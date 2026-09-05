@@ -5,5 +5,5 @@ set input=file.txt
 set max=20000
 set count=0
 set fileIndex=1
-
+for /f "usebackq delims=" %%A in ("%input%") do (
 
