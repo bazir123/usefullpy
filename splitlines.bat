@@ -8,3 +8,4 @@ set fileIndex=1
 for /f "usebackq delims=" %%A in ("%input%") do (
     if !count! EQU 0 (
         set outfile=output_!fileIndex!.txt
+    )
