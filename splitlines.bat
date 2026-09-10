@@ -10,3 +10,4 @@ for /f "usebackq delims=" %%A in ("%input%") do (
         set outfile=output_!fileIndex!.txt
     )
     echo %%A>>!outfile!
+    set /a count+=1
