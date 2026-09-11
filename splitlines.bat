@@ -11,3 +11,5 @@ for /f "usebackq delims=" %%A in ("%input%") do (
     )
     echo %%A>>!outfile!
     set /a count+=1
+
+    if !count! GEQ %max% (
