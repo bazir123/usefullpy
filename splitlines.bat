@@ -15,3 +15,4 @@ for /f "usebackq delims=" %%A in ("%input%") do (
     if !count! GEQ %max% (
         set count=0
         set /a fileIndex+=1
+    )
