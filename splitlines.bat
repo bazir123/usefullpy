@@ -16,3 +16,4 @@ for /f "usebackq delims=" %%A in ("%input%") do (
         set count=0
         set /a fileIndex+=1
     )
+)
