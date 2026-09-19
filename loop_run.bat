@@ -1,2 +1,4 @@
 @echo off
 setlocal
+
+:: === CONFIGURATION ===
