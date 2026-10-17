@@ -6,3 +6,4 @@ echo [*] Logging to: "%logfile%"
 echo Windows Telemetry Task Disabler >> "%logfile%"
 echo Started: %DATE% %TIME% >> "%logfile%"
 echo ---------------------------------------- >> "%logfile%"
+:: Admin check
