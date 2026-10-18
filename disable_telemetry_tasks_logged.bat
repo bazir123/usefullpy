@@ -7,3 +7,4 @@ echo Windows Telemetry Task Disabler >> "%logfile%"
 echo Started: %DATE% %TIME% >> "%logfile%"
 echo ---------------------------------------- >> "%logfile%"
 :: Admin check
+>nul 2>&1 net session || (
