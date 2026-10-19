@@ -8,3 +8,4 @@ echo Started: %DATE% %TIME% >> "%logfile%"
 echo ---------------------------------------- >> "%logfile%"
 :: Admin check
 >nul 2>&1 net session || (
+  echo [!] Please run this script as Administrator.
