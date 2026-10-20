@@ -9,3 +9,4 @@ echo ---------------------------------------- >> "%logfile%"
 :: Admin check
 >nul 2>&1 net session || (
   echo [!] Please run this script as Administrator.
+  echo [!] Admin check failed >> "%logfile%"
