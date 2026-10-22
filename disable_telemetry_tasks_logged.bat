@@ -11,3 +11,4 @@ echo ---------------------------------------- >> "%logfile%"
   echo [!] Please run this script as Administrator.
   echo [!] Admin check failed >> "%logfile%"
   pause
+  exit /b
