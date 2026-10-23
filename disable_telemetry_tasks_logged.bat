@@ -12,3 +12,4 @@ echo ---------------------------------------- >> "%logfile%"
   echo [!] Admin check failed >> "%logfile%"
   pause
   exit /b
+)
