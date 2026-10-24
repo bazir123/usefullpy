@@ -13,3 +13,4 @@ echo ---------------------------------------- >> "%logfile%"
   pause
   exit /b
 )
+echo [*] Disabling telemetry-related scheduled tasks...
