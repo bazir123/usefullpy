@@ -14,3 +14,4 @@ echo ---------------------------------------- >> "%logfile%"
   exit /b
 )
 echo [*] Disabling telemetry-related scheduled tasks...
+echo Disabling tasks... >> "%logfile%"
