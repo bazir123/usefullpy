@@ -16,3 +16,4 @@ echo ---------------------------------------- >> "%logfile%"
 echo [*] Disabling telemetry-related scheduled tasks...
 echo Disabling tasks... >> "%logfile%"
 :: List of telemetry tasks to disable
+set tasks=^
