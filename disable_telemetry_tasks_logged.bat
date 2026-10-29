@@ -18,3 +18,4 @@ echo Disabling tasks... >> "%logfile%"
 :: List of telemetry tasks to disable
 set tasks=^
 "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" ^
+"\Microsoft\Windows\Application Experience\ProgramDataUpdater" ^
