@@ -19,3 +19,4 @@ echo Disabling tasks... >> "%logfile%"
 set tasks=^
 "\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser" ^
 "\Microsoft\Windows\Application Experience\ProgramDataUpdater" ^
+"\Microsoft\Windows\Application Experience\StartupAppTask" ^
