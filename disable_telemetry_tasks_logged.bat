@@ -21,3 +21,4 @@ set tasks=^
 "\Microsoft\Windows\Application Experience\ProgramDataUpdater" ^
 "\Microsoft\Windows\Application Experience\StartupAppTask" ^
 "\Microsoft\Windows\Autochk\Proxy" ^
+"\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" ^
