@@ -22,3 +22,4 @@ set tasks=^
 "\Microsoft\Windows\Application Experience\StartupAppTask" ^
 "\Microsoft\Windows\Autochk\Proxy" ^
 "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" ^
+"\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ^
