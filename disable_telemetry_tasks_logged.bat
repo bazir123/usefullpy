@@ -23,3 +23,4 @@ set tasks=^
 "\Microsoft\Windows\Autochk\Proxy" ^
 "\Microsoft\Windows\Customer Experience Improvement Program\Consolidator" ^
 "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ^
+"\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" ^
