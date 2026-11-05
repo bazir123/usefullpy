@@ -25,3 +25,4 @@ set tasks=^
 "\Microsoft\Windows\Customer Experience Improvement Program\KernelCeipTask" ^
 "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" ^
 "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" ^
+"\Microsoft\Windows\Maintenance\WinSAT" ^
