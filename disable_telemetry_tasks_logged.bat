@@ -26,3 +26,4 @@ set tasks=^
 "\Microsoft\Windows\Customer Experience Improvement Program\UsbCeip" ^
 "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" ^
 "\Microsoft\Windows\Maintenance\WinSAT" ^
+"\Microsoft\Windows\Feedback\Siuf\DmClient" ^
