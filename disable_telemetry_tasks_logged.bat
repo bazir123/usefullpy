@@ -27,3 +27,4 @@ set tasks=^
 "\Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector" ^
 "\Microsoft\Windows\Maintenance\WinSAT" ^
 "\Microsoft\Windows\Feedback\Siuf\DmClient" ^
+"\Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload" ^
