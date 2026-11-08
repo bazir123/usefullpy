@@ -28,3 +28,4 @@ set tasks=^
 "\Microsoft\Windows\Maintenance\WinSAT" ^
 "\Microsoft\Windows\Feedback\Siuf\DmClient" ^
 "\Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload" ^
+"\Microsoft\Windows\Windows Error Reporting\QueueReporting" ^
