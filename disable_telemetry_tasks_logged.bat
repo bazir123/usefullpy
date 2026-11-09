@@ -29,3 +29,4 @@ set tasks=^
 "\Microsoft\Windows\Feedback\Siuf\DmClient" ^
 "\Microsoft\Windows\Feedback\Siuf\DmClientOnScenarioDownload" ^
 "\Microsoft\Windows\Windows Error Reporting\QueueReporting" ^
+"\Microsoft\Windows\Inventory\InventoryCollector" ^
