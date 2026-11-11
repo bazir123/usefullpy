@@ -31,3 +31,4 @@ set tasks=^
 "\Microsoft\Windows\Windows Error Reporting\QueueReporting" ^
 "\Microsoft\Windows\Inventory\InventoryCollector" ^
 "\Microsoft\Windows\Inventory\Scheduled" ^
+"\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" ^
