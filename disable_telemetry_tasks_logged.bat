@@ -32,3 +32,4 @@ set tasks=^
 "\Microsoft\Windows\Inventory\InventoryCollector" ^
 "\Microsoft\Windows\Inventory\Scheduled" ^
 "\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" ^
+"\Microsoft\Windows\Windows Defender\Windows Defender Cleanup" ^
