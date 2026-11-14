@@ -34,3 +34,5 @@ set tasks=^
 "\Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance" ^
 "\Microsoft\Windows\Windows Defender\Windows Defender Cleanup" ^
 "\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" ^
+"\Microsoft\Windows\Windows Defender\Windows Defender Verification"
+
