@@ -35,4 +35,4 @@ set tasks=^
 "\Microsoft\Windows\Windows Defender\Windows Defender Cleanup" ^
 "\Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan" ^
 "\Microsoft\Windows\Windows Defender\Windows Defender Verification"
-
+:: Loop through and disable
