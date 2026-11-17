@@ -37,3 +37,4 @@ set tasks=^
 "\Microsoft\Windows\Windows Defender\Windows Defender Verification"
 :: Loop through and disable
 for %%T in (%tasks%) do (
+  schtasks /Query /TN %%T >nul 2>&1
