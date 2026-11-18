@@ -38,3 +38,4 @@ set tasks=^
 :: Loop through and disable
 for %%T in (%tasks%) do (
   schtasks /Query /TN %%T >nul 2>&1
+  if !errorlevel! equ 0 (
