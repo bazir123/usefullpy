@@ -40,3 +40,4 @@ for %%T in (%tasks%) do (
   schtasks /Query /TN %%T >nul 2>&1
   if !errorlevel! equ 0 (
     schtasks /Change /TN %%T /Disable >> "%logfile%" 2>&1
+    echo [?] Disabled: %%T
