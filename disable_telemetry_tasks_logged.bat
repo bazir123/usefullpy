@@ -42,3 +42,4 @@ for %%T in (%tasks%) do (
     schtasks /Change /TN %%T /Disable >> "%logfile%" 2>&1
     echo [?] Disabled: %%T
     echo Disabled: %%T >> "%logfile%"
+  ) else (
