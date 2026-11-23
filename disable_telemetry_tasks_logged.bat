@@ -43,3 +43,4 @@ for %%T in (%tasks%) do (
     echo [?] Disabled: %%T
     echo Disabled: %%T >> "%logfile%"
   ) else (
+    echo [ ] Skipped (not found): %%T
