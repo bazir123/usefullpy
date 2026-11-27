@@ -45,6 +45,6 @@ for %%T in (%tasks%) do (
   ) else (
     echo [ ] Skipped (not found): %%T
     echo Not found: %%T >> "%logfile%"
-
+  )
 
 
